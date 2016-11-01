@@ -15,9 +15,11 @@ http.listen(port, ip, function () {
   console.log('Example app listening on port 3000!');
 });
 io.on('connection', function(socket){
+  socket.broadcast.emit('hi');
   console.log('a user connected');
   socket.on('chat message', function(msg){
     console.log('message: ' + msg);
+    io.emit('chat message', msg);
   });
   socket.on('disconnect', function(){
     console.log('user disconnected');
