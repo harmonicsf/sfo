@@ -17,6 +17,6 @@
   },
   "devDependencies": {
     "babel-core": "lastest",
-    "babel-loader": "lastest",
+    "babel-loader": "lastest"
   }
 }
