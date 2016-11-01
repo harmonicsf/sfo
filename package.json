@@ -15,5 +15,11 @@
     "react-dom": "^15.2.0",
     "socket.io": "latest"
   },
-  "devDependencies": {}
+  "devDependencies": {
+      "babel-core": "lastest",
+      "babel-loader": "lastest",
+      "babel-polyfill": "lastest",
+      "babel-preset-es2015": "lastest",
+      "babel-preset-react": "lastest"
+    }
 }
