@@ -4,11 +4,10 @@
   "description": "Express.js 'Hello World' middleware, useful for testing",
   "repository": "tunnckoCore/express-hello-world",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
-  "main": "index.js",
+  "main": "app.js",
   "license": "MIT",
   "scripts": {
-    "start": "cd dist && node server",
-    "build": "webpack"
+    "start": "node app.js"
   },
   "dependencies": {
     "express": "latest",
