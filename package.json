@@ -30,5 +30,5 @@
       "snazzy": "^4.0.0",
       "webpack": "^1.13.1",
       "webpack-node-externals": "^1.2.0"
-    },
+    }
 }
