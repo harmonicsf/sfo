@@ -16,7 +16,7 @@
     "socket.io": "latest"
   },
   "devDependencies": {
-    "babel-core": "lastest",
-    "babel-loader": "lastest"
+    "babel-core": "latest",
+    "babel-loader": "latest"
   }
 }
