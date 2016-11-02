@@ -10,6 +10,7 @@
     "start": "node app.js"
   },
   "dependencies": {
+    "babel-preset-es2015": "6.3.13",
     "express": "latest",
     "react": "^15.2.0",
     "react-dom": "^15.2.0",
