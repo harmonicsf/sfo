@@ -7,7 +7,8 @@
   "main": "app.js",
   "license": "MIT",
   "scripts": {
-    "start": "node app.js"
+    "build": "babel src -s -D -d dist --presets es2015,stage-0",
+    "start": "node dist",
   },
   "dependencies": {
     "express": "latest",
